@@ -1,0 +1,57 @@
+/*헤더바*/
+header {
+  padding-top: 10px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+}
+
+.info-bar {
+  width: 96vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+.info-bar__icons img {
+  width: 15px;
+}
+
+.info-bar__time {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu-bar {
+  margin-top: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1px 8px 0 10px;
+}
+
+.menu-bar__location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar__location div {
+  width: 75px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0 0 0;
+}
+
+#arrow {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-bar__icons img {
+  padding: 10px 2px 0 2px;
+  width: 20px;
+}
