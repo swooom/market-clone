@@ -63,4 +63,9 @@ main {
   border-radius: 36px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.write:hover {
+  background-color: rgba(254, 111, 15, 0.5);
 }

@@ -38,3 +38,19 @@ footer {
   font-weight: 530;
   cursor: pointer;
 }
+
+@keyframes icon-doong {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.icon:hover {
+  animation: 1s icon-doong infinite ease-in-out;
+}
