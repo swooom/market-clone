@@ -20,10 +20,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .item-list__img img {
-  width: 50px;
+  width: 100%;
+  height: 100%;
 }
 
 .item-list__info-title {
